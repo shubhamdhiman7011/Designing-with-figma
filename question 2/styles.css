@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Popular Tours Section */
+.popular-tours {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.popular-tours h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.tour-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.tour-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tour-card img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-card h3 {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.tour-card p {
+    padding: 0 15px 15px 15px;
+    color: #666;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    flex-basis: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
