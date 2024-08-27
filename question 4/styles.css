@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.header .btn-primary {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* Find Graduates Section Styles */
+.find-graduates {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.find-graduates-left {
+    width: 50%;
+}
+
+.find-graduates-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.find-graduates-right {
+    width: 50%;
+}
+
+.find-graduates-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.find-graduates-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.find-graduates-right input,
+.find-graduates-right button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.find-graduates-right button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.find-graduates-right button:hover {
+    background-color: #e55340;
+}
+
+/* Job Roles Section Styles */
+.job-roles {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.job-roles h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.roles-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.roles-grid span {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* Why Hire From Us Section Styles */
+.why-hire {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.why-hire h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.benefits-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.benefit-item {
+    text-align: center;
+    width: 18%;
+}
+
+.benefit-item img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.benefit-item p {
+    font-size: 16px;
+}
+
+.why-hire .btn-primary {
+    display: block;
+    margin: 
